@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        margin: 0px auto;
+        padding: 0;
+        display: block;
+    }
+        /*  SET Job */
+    .container-job-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+        /* SET Certificate */
+    .container-certificate-info,
+    .container-certificate-right{
+        display: block;
+        padding: 15px;
+    }
+    .container-certificate-right img{
+        border-left: none;
+    }
+    .container-certificate-left{
+        padding: 15px;
+        border-bottom: 2px solid #d6c08d;
+    }
+    .container-certificate-left > div{
+        display: block;
+        border-bottom: none;
+        border-right: 2px solid #d6c08d;
+    }
+        /* SET Project */
+        .container-project img{
+            width: 100%;
+        }
+        h4{
+            font-size: 12px;
+        }
+        table td:first-child{
+            height: 200px;
+            padding: 0px 5px;
+        }
+}

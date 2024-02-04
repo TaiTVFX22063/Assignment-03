@@ -1,0 +1,61 @@
+
+@media screen and (max-width: 767px){
+    body{
+        margin: 0px auto;
+        padding: 0;
+        display: block;
+    }
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+        /* SET navbar */
+    .container-navbar{
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+    .container-navbar div{
+        width: 400px;
+        font-size: 24px;    
+    }
+        /* SET info */
+    .container-about{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-about div{
+        font-size: 24px;
+    }
+    .container-about div:first-child{
+        margin-left: 30px;
+    }
+        /* SET Job */
+    .container-job-info{
+        display: flex;
+        flex-direction: column;
+    }
+        /* SET Certificate */
+    .container-certificate{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .container-certificate-info{
+        padding: 10px 0px;
+    }
+    .container-certificate-right img{
+        border-left: none;
+        padding-left: 0;
+    }
+    .container-project{
+        display: block;
+    }
+        /* SET Footer */
+    .container-footer i{
+        font-size: 100%;
+    }
+        
+    
+}
