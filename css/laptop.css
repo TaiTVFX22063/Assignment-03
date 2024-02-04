@@ -7,7 +7,7 @@
     background: #f7f7f7;
 }
 section > .container{
-    width: 100%;
+    width: 1170px;
     margin: auto;
     padding: 30px 50px;
 }
@@ -72,7 +72,7 @@ body{
     padding: 0 30px;
 
 }
-        /* SET job-info */
+        /* SET job */
 ul li{
     list-style-type: none;
 }
@@ -112,7 +112,7 @@ ul li{
     border-radius: 35%;
     padding: 5px;
 }
-        /* SET info */
+        /* SET Job-info */
 .section-content-info{    
     height: 180px;
 }
@@ -219,23 +219,11 @@ table td:first-child{
     padding: 0px 5px;
 }
         /*  SET Footer */
-.container-footer ul{
-    width: 500px;
-    margin:auto 33%;
-}
 .container-footer li{
-    display:inline-block;
-    list-style-type: none;
-    width: 120px;
-    font-size: 18px;    
+    display: inline-block;
 }
-.container-footer a{
-    text-decoration: none;
-    color: grey;
-}
-.container-footer i{
-    color: #199cdb;
-    font-size: 25px;
+.container-footer ul{
+    margin-left: 33%;
 }
         /*  SET Avatar */
 .navbar-avatar img{
