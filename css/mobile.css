@@ -8,7 +8,7 @@
     body{
         margin: 0px ;
         padding: 0px;
-        width: 1170px;   
+        max-width: 767px;   
     }
         /* SET navbar */
     .container-navbar,
@@ -56,4 +56,8 @@
     .container-project img{
         width: 100%;
     }
+        /* SET Footer */
+        .container-footer ul{
+            margin-left: 50px;
+        }
 }

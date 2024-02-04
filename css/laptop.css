@@ -225,6 +225,13 @@ table td:first-child{
 .container-footer ul{
     margin-left: 33%;
 }
+.container-footer a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ffbe98;
+    font-size: large;
+}
         /*  SET Avatar */
 .navbar-avatar img{
     width: 120px;

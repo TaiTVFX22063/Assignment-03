@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body{
-        width: 1170px;
+        max-width: 992px;
         margin: 0px auto;
         padding: 0;
         display: block;
@@ -24,6 +24,7 @@
     .container-certificate-info,
     .container-certificate-right{
         display: block;
+        padding-left: 15px;
     }
     .container-certificate-info img,
     .container-certificate-left img,
@@ -35,6 +36,7 @@
         display: block;
         border-bottom: none;
         border-right: 2px solid #d6c08d;
+        padding: 10px;
         
     }
     .container-certificate-left,
